@@ -1,0 +1,30 @@
+a {
+color:цвет словом (red) ;
+font-size: пиксели;
+}
+a {
+      color: #ffffff это хекс . фул белый
+также color: rgba(red,green,blue,прозрачность) например (255,0,0,0.5 полупрозрач)
+}
+id - атрибут идентификатор (вписываем в хтмл коде чтобы дать ему отдельное от ост значение, начинается всегда с буквы напр a12 или moya_ssilka ) в кссе обознач решеткой #
+#moya_ssilka
+
+второй способ идентифифкации - class="назв класса"
+<a href="ссылка" class="назв класса">Подпись если надо а так можно тупо ссылку</a>
+класса м б два <a href="ссылка" class="назв  доп назв(его параметры поверх основн)">Подпись</a>
+
+хтмл
+<a href="google.com" class="browsers google"> google</a> также с div message можно и тд я хз( <div class="message success/fail  ">файлы были\не были удалены</div>)
+
+сп записи в кссе
+.browsers{
+color: #747474;
+background-color: #E4E4E4;
+border: 1px solid #323232
+}
+
+.google {
+background-color:F5F5F5
+color:red ;
+}
+

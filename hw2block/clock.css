@@ -1,0 +1,28 @@
+.clock {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid #5ebeba;
+  position: relative;
+}
+.point {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #449994;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.clock-hand {
+  position: absolute;
+  border-radius: 5px;
+  width: 2px;
+  background-color: #5ebeba;
+  left: 50%;
+  top: 50%;
+  transform-origin: 0 0;
+}

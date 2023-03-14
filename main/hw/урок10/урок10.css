@@ -1,0 +1,62 @@
+
+.container {
+max-width: 1024px;
+max-height: 320px;
+margin: 0 auto;
+box-sizing: border-box;
+}
+
+.block {
+max-width: 760px;
+background-color: aqua;
+margin: 50px auto;
+position: relative;
+padding: 10px
+}
+
+.block h1 {
+text-align: center
+}
+
+.block p {
+text-align: center;
+font-size: 20px
+}
+
+.block_wrap {
+padding: 30px 50p;
+}
+
+.block::before,
+.block::after,
+.block_wrap::before,
+.block_wrap::after {
+content: "";
+position: absolute;
+width: 55px;
+height: 55px;
+border-radius: 50%;
+z-index: 1;
+background-color: white;
+
+}
+
+.block::before {
+top: -20px;
+left: -20px;
+}
+
+.block::after {
+top: -20px;
+right: -20px;
+}
+
+.block_wrap::before {
+bottom: -20px;
+left: -20px;
+}
+
+.block_wrap::after {
+bottom: -20px;
+right: -20px;
+}

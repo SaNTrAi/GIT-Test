@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+        <title> </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1">
+     </head>
+
+     <body>
+
+     </body>
+</html>
+
+
+
+<link href="%D1%83%D1%80%D0%BE%D0%BA9.css" rel="stylesheet" type="text/css"/>
+
+
+<link href="файл нтмл" rel="stylesheet" type="text/css"/>
+
+
+<title>  заголовок сайта -  назв  </title>
+
+<meta charset="utf-8">  - для html5, формат чтения (utf-8 лучше)
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<meta name="description" lang="ru" content="Описание стр на русском">
+<meta name="description" lang="en" content="Opisanie str na angl"> так можно на все языки сделатиь автора описание и тд
+
+<meta name="author" content="Иван">
+<meta name="keywords" content="ключ слова,через запятую,и тд.">
+
+<meta name="robots" content="index\no index,follow\no follow" или "all" - все разреш "none" - все запрет (индексация для роботов, переход по ссылка со стр)
+
+мнемоника
+<  - &lt       &nbsp; - пробел
+>  - &gt       &ensp узкий пробел
+"  - &qout     &emsp широкий пробел
+`  - &apos     &ndash узкое тирe
+&  - &amp      &mdash широкое тире
+
+
+    <p> В html параграф задается тегом<p>.</p>
+    <p> В html параграф задается тегом &lt;p&gt; </p>
+
+    <p> wdaewfdadas</p>
+    <hr color="red" noshade>
+
+    <p class="formula">H<sub>2</sub>O + CuO &rArr; Cu + H<sub>2</sub>O</p>
+&#9749; &#9801;
+
+
+

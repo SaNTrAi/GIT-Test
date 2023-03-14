@@ -1,0 +1,48 @@
+body {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+text-align: center;
+}
+
+#photo {
+margin: 0 auto;
+width: 800px;
+height: 200px;
+}
+
+#photo a {
+background-color: white;
+border: 1px solid black;
+padding: 10px;
+position: absolute;
+}
+
+.a1 {
+left: 10px;
+}
+
+.a2 {
+left: 50px;
+}
+
+.a3 {
+left: 90px;
+}
+
+.a4 {
+left: 130px;
+}
+
+.a5 {
+left: 170px;
+}
+
+.a6 {
+left: 210px;
+}
+
+.block {
+    border: 1px solid red
+}

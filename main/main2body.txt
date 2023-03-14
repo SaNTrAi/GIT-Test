@@ -1,0 +1,30 @@
+<p> </p> - абзацы
+<br> - перенос строки непарный
+
+<hr> - разделить абзацы  чертой
+<hr size="10"   width="10%" или 150(пикселей)"  align="center(по кд)\left\right"    color="red\blue и noshade (делает разделения абзаца бесформеннным)"
+
+<h1\2\3\4\5\6> </h1\2\3\4\5\6> заголовки
+также size="10" width="10%" align="center" color="red" noshade могут использоваться для др.
+
+картинки width="" height="" border=""
+hspace="" wspace=""
+
+<body background=""> - задний фон
+
+<a target="_blank" href=" "></a>    таргет бланк - ссылка в нов окне
+<a target="_blank" href="https://www.google.ru"></a>
+
+<b> </b> и <strong> </strong> - полужирный ( стронг лучше)
+<i> </i> и <em> </em> - курсив (ем лучше)
+<kbd> </kbd>  - моношрифт
+<q> текст в ковычках </q>
+<abbr> аббревиатура
+
+<ol reversed> <ol start="с какого числа начнем">
+у ol много знач наприм римские цифры
+
+dl список опр
+dt термин
+dd опр термина
+
